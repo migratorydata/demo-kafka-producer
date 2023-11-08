@@ -1,0 +1,13 @@
+How to publish compressed messages using Kafka Client Producer
+
+In this example the Kafka client producer sends compressed record data to the kafka server by compressing
+data using java builtin `Deflater` class and adds additional information as headers to the record. The C# consumer
+receives the messages from push server, uncompressed the data and displays them to the console.
+
+Steps to run the example:
+
+1. From `docker` directory start the Kafka server and MigratoryData server using command `docker compose up`.
+
+2. Start the kafka producer from the root directory of the project using command `./gradlew run`.
+
+3. Go to `dotnet-consumer/consumer` and start the consumer using command `dotnet run`.

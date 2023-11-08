@@ -1,0 +1,4 @@
+.gradle
+build
+dotnet-consumer/consumer/bin
+dotnet-consumer/consumer/obj
