@@ -3,6 +3,10 @@ Here is a demo project that shows how to produce Kafka records using Java to be 
 * QoS (STANDARD or GUARANTEED)
 * retained (as a snapshot message)
 
+The demo project uses MigratoryData Client library, more precisely the utility class **MigratoryDataKafkaUtils** which is documented at:
+
+https://migratorydata.com/docs/client-api/java/classes/interfacemigratorydatakafkautils/
+
 The C# consumer receives the messages from the MigratoryData server, uncompresses and displays them to the console.
 
 Steps to run the example:
